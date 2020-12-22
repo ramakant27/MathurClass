@@ -14,3 +14,5 @@ echo "<newfile3>" >> .gitignore :- make entry of  <newfile3> in .gitignore
 git add . :- adding files to staging area
 git commit -m "<msg> :- moved file from staging area to comitted area
 git push origin <second branch Name> :- push branch to github repo
+
+git pull origin gitpractice => ( If we have repo already exist on local machine than we can pull the changes using mentioend commond )
