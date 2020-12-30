@@ -1,0 +1,16 @@
+git clone <url> : this will clone the repo from github/bitbucket
+git branch :- it will tell you which branch you are as of now
+git checkout -b gitpractice :- it will create new branch and will switch you in that branch
+git status :- it will tell you the current commit/noncommit status of branch
+git add . :- will move files to staging area
+git commit -m "<msg> :- it will move files from staging area to commeted portion
+
+git checkout -b <second branch Name> :- create new branch and switched into it
+git checkout main :- swictched to main branch
+git checkout <second branch Name> :- switch to second branch
+touch <newfile2> :- created a file
+touch <newfile3> :- created a file
+echo "<newfile3>" >> .gitignore :- make entry of  <newfile3> in .gitignore
+git add . :- adding files to staging area
+git commit -m "<msg> :- moved file from staging area to comitted area
+git push origin <second branch Name> :- push branch to github repo
